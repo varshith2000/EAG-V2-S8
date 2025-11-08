@@ -1,0 +1,36 @@
+# Core dependencies
+pydantic>=2.0.0
+pyyaml>=6.0
+
+# HTTP and networking
+aiohttp>=3.8.0
+aiohttp-cors>=0.7.0
+requests>=2.28.0
+
+# Google APIs
+google-api-python-client>=2.108.0
+google-auth>=2.25.2
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+
+# Text processing
+markitdown>=0.0.1.dev0
+
+# Document processing
+pymupdf4llm>=0.0.4
+trafilatura>=1.6.0
+
+# Machine learning
+faiss-cpu>=1.7.4
+numpy>=1.21.0
+tqdm>=4.64.0
+
+# Image processing
+pillow>=9.0.0
+
+# Optional: For development
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
